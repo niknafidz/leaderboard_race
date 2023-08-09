@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier Prime', monospace;
+    letter-spacing: 0.5px;
+}
+
+
+body{
+    background-color: aqua;
+}
+
+.lboard{
+    border-collapse: collapse;
+    
+    background-color: white;
+    border-radius: 10px;
+    margin: 25px;
+}
+
+.lboard thead tr{
+    border-bottom: 1px dashed grey;
+}
+
+.lboard thead tr td{
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: grey;
+    padding: 8px;
+
+}
+
+.lboard tbody tr td{
+    font-size: 25px;
+    color: green;
+    padding: 7px;
+}
+
+.img-race{
+    width: 300px; 
+    display: block;   
+    margin: 0px auto;
+}
+
